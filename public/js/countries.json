@@ -286,7 +286,7 @@
     "name": "China",
     "iso_a3": "CHN",
     "iso_a2": "CN",
-    "icon": "em-flag-cn"
+    "icon": "em-cn"
   },
   {
     "name": "Colombia",
@@ -460,7 +460,7 @@
     "name": "United Kingdom",
     "iso_a3": "GBR",
     "iso_a2": "GB",
-    "icon": "em-flag-gb"
+    "icon": "em-gb"
   },
   {
     "name": "Grenada",
@@ -1144,7 +1144,7 @@
     "name": "Russia",
     "iso_a3": "RUS",
     "iso_a2": "RU",
-    "icon": "em-flag-ru"
+    "icon": "em-ru"
   },
   {
     "name": "Rwanda",
