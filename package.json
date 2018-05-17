@@ -1,0 +1,17 @@
+{
+  "name": "sauntimo.herokuapp.com,
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "require": "^2.4.20"
+  }
+}

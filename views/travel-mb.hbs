@@ -1,0 +1,32 @@
+{{> pre}}
+
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.css' rel='stylesheet' />
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<div class="data" 
+	data-trips="{{jsn_trips}}"
+	data-countries="{{jsn_countries}}"
+	data-emoji_flags="{{emoji_flags}}"
+>
+
+    {{> header}}
+
+    I like to travel with my camera. Here are some places I've been.
+
+	<ul class="year-filters">
+		<li class="year-filter" data-value="all">All</li>
+		<li class="year-filter" data-value="2015">2015</li>
+		<li class="year-filter" data-value="2016">2016</li>
+		<li class="year-filter" data-value="2017">2017</li>
+		<li class="year-filter" data-value="2018">2018</li>
+	</ul>
+
+	<div class="country-tags"></div>
+
+	<div id='map'></div>
+
+    {{> footer}}
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.js'></script>
+    <script type="text/javascript" src="/js/travel-mb.js"></script>
+  </body>
+</html>

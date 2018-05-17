@@ -1,0 +1,428 @@
+{ "trips" : [
+        {
+            "arr_years" : [ 2015 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Dubrovnik",
+                    "country" : {
+                        "name" : "Croatia",
+                        "code" : "HRV"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2015, 2016 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Copenhagen",
+                    "country" : {
+                        "name" : "Denmark",
+                        "code" : "DNK"
+                    }
+                },
+                {
+                    "city"    : "Malmö",
+                    "country" : {
+                        "name" : "Sweden",
+                        "code" : "SWE"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2016 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Budapest",
+                    "country" : {
+                        "name" : "Hungary",
+                        "code" : "HUN"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2016 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Stockholm",
+                    "country" : {
+                        "name" : "Sweden",
+                        "code" : "SWE"
+                    }
+                },
+                {
+                    "city"    : "Helsinki",
+                    "country" : {
+                        "name" : "Finland",
+                        "code" : "FIN"
+                    }
+                },
+                {
+                    "city"    : "Oslo",
+                    "country" : {
+                        "name" : "Norway",
+                        "code" : "NOR"
+                    }
+                },
+                {
+                    "city"    : "Berlin",
+                    "country" : {
+                        "name" : "Germany",
+                        "code" : "DEU"
+                    }
+                },
+                {
+                    "city"    : "Brussels",
+                    "country" : {
+                        "name" : "Belgium",
+                        "code" : "BEL"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Geneva",
+                    "country" : {
+                        "name" : "Switzerland",
+                        "code" : "CHE"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Luxembourg City",
+                    "country" : {
+                        "name" : "Luxembourg",
+                        "code" : "LUX"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Porto",
+                    "country" : {
+                        "name" : "Portugal",
+                        "code" : "PRT"
+                    }
+                },
+                {
+                    "city"    : "Lisbon",
+                    "country" : {
+                        "name" : "Portugal",
+                        "code" : "PRT"
+                    }
+                },
+                            {
+                    "city"    : "Madrid",
+                    "country" : {
+                        "name" : "Spain",
+                        "code" : "ESP"
+                    }
+                },
+                            {
+                    "city"    : "Barcelona",
+                    "country" : {
+                        "name" : "Spain",
+                        "code" : "ESP"
+                    }
+                },
+                            {
+                    "city"    : "Zurich",
+                    "country" : {
+                        "name" : "Switzerland",
+                        "code" : "CHE"
+                    }
+                },
+                            {
+                    "city"    : "Basel",
+                    "country" : {
+                        "name" : "Switzerland",
+                        "code" : "CHE"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Nice",
+                    "country" : {
+                        "name" : "France",
+                        "code" : "FRA"
+                    }
+                },
+                {
+                    "city"    : "Monaco",
+                    "country" : {
+                        "name" : "Monaco",
+                        "code" : "MCO"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Warsaw",
+                    "country" : {
+                        "name" : "Poland",
+                        "code" : "POL"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "San Francisco",
+                    "country" : {
+                        "name" : "United States of America",
+                        "code" : "USA"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Marrakesh",
+                    "country" : {
+                        "name" : "Morocco",
+                        "code" : "MAR"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Stockholm",
+                    "country" : {
+                        "name" : "Sweden",
+                        "code" : "SWE"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2017, 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Bergamo",
+                    "country" : {
+                        "name" : "Italy",
+                        "code" : "ITA"
+                    }
+                },
+                {
+                    "city"    : "Sliema",
+                    "country" : {
+                        "name" : "Malta",
+                        "code" : "MLT"
+                    }
+                },
+                {
+                    "city"    : "Rome",
+                    "country" : {
+                        "name" : "Italy",
+                        "code" : "ITA"
+                    }
+                },
+                {
+                    "city"    : "Vatican City",
+                    "country" : {
+                        "name" : "Holy See",
+                        "code" : "VAT"
+                    }
+                },
+                {
+                    "city"    : "Florence",
+                    "country" : {
+                        "name" : "Italy",
+                        "code" : "ITA"
+                    }
+                },
+                {
+                    "city"    : "Bologna",
+                    "country" : {
+                        "name" : "Italy",
+                        "code" : "ITA"
+                    }
+                },
+                {
+                    "city"    : "San Marino",
+                    "country" : {
+                        "name" : "San Marino",
+                        "code" : "SMR"
+                    }
+                },
+                {
+                    "city"    : "Milan",
+                    "country" : {
+                        "name" : "Italy",
+                        "code" : "ITA"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Malaga",
+                    "country" : {
+                        "name" : "Spain",
+                        "code" : "ESP"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Venice",
+                    "country" : {
+                        "name" : "Italy",
+                        "code" : "ITA"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Naples",
+                    "country" : {
+                        "name" : "Italy",
+                        "code" : "ITA"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Paris",
+                    "country" : {
+                        "name" : "France",
+                        "code" : "FRA"
+                    }
+                },
+                {
+                    "city"    : "Tokyo",
+                    "country" : {
+                        "name" : "Japan",
+                        "code" : "JPN"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "New York",
+                    "country" : {
+                        "name" : "United States of America",
+                        "code" : "USA"
+                    }
+                },
+                {
+                    "city"    : "Brussels",
+                    "country" : {
+                        "name" : "Belgium",
+                        "code" : "BEL"
+                    }
+                },
+                {
+                    "city"    : "Sofia",
+                    "country" : {
+                        "name" : "Bulgaria",
+                        "code" : "BGR"
+                    }
+                },
+                {
+                    "city"    : "Athens",
+                    "country" : {
+                        "name" : "Greece",
+                        "code" : "GRC"
+                    }
+                },
+                {
+                    "city"    : "Bucharest",
+                    "country" : {
+                        "name" : "Romania",
+                        "code" : "ROU"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Kyiv",
+                    "country" : {
+                        "name" : "Ukraine",
+                        "code" : "UKR"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Dublin",
+                    "country" : {
+                        "name" : "Ireland",
+                        "code" : "IRL"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Vienna",
+                    "country" : {
+                        "name" : "Austria",
+                        "code" : "AUT"
+                    }
+                }
+            ]
+        },
+        {
+            "arr_years" : [ 2018 ],
+            "arr_destinations" : [
+                {
+                    "city"    : "Prague",
+                    "country" : {
+                        "name" : "Czechia",
+                        "code" : "CZE"
+                    }
+                }
+            ]
+        }
+    ]
+}
