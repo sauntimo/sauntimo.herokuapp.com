@@ -91,9 +91,14 @@ map.on('load', function () {
         }
 
         var feature = features[0];
+
+        var str_html = '<span>' + 
+            getFlagIconMarkupFromISO_A3( feature.properties.iso_a3 )
+            + ' ' + feature.properties.name + '</span>';
+
         var popup = new mapboxgl.Popup()
             .setLngLat(map.unproject(e.point))
-            .setHTML("<p>"+feature.properties.name+"</p>")
+            .setHTML( str_html )
             .addTo(map);
     });
 
@@ -156,10 +161,8 @@ function highlightTripsByYear( arr_trips, year ){
         var iso_a3 = arr_country_codes[ country_pos ];
 
         var this_country = getCountryfromISO_A3( iso_a3 );
-        var iso_a2 = this_country.iso_a2;
-        // var emoji = getEmojiFromISO_A2( iso_a2 );
 
-        addCountryTag( this_country.icon, name );
+        addCountryTag( iso_a3, name );
     }
 
     replaceHighlight( arr_country_codes );
@@ -178,18 +181,14 @@ function getCountryfromISO_A3( iso_a3 ){
     }
 }
 
-function getEmojiFromISO_A2( iso_a2 ){
-
-    for( var i = 0; i < arr_emoji_flags.length; i++ ){
-
-        var this_country = arr_emoji_flags[ i ];
-        
-        if( this_country.code === iso_a2 ){
-            return this_country.emoji;
-        }
-    }
-
-}
+// function getEmojiFromISO_A2( iso_a2 ){
+//     for( var i = 0; i < arr_emoji_flags.length; i++ ){
+//         var this_country = arr_emoji_flags[ i ];
+//         if( this_country.code === iso_a2 ){
+//             return this_country.emoji;
+//         }
+//     }
+// }
 
 function addYearFilterClickHandlers(){
 
@@ -226,11 +225,17 @@ function clearCountryTags(){
     }
 }
 
-function addCountryTag( icon_class, name ){
+function getFlagIconMarkupFromISO_A3( iso_a3 ){
+
+    var this_country = getCountryfromISO_A3( iso_a3 );
+    return '<i class="em ' + this_country.icon + '"></i>';
+}
+
+function addCountryTag( iso_a3, name ){
 
     var tag = document.createElement( 'span' );
     tag.classList.add( 'country-tag' );
-    tag.innerHTML = '<i class="em ' + icon_class + '"></i> ' + name;
+    tag.innerHTML = getFlagIconMarkupFromISO_A3( iso_a3 ) + ' ' + name;
     // tag.innerHTML = '<span class="emoji">' + emoji + '</span> ' + name;
     var div = document.getElementsByClassName( 'country-tags' )[0];
     div.appendChild( tag );
